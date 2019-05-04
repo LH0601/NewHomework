@@ -1,0 +1,53 @@
+ /* 浮动的水平导航栏 */
+ ul{
+    
+//     /* 删除边距和填充 第一行移除列表前的小标记*/
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#333;
+  
+//   /* 固定位置 */
+//     position:fixed;
+//     top:0;
+//     width:100%;
+  }
+//   li{
+//     float:left;
+//   }
+  
+//   li a{
+//   display:block;
+//   color:white;
+//   text-align:center;
+//   padding:14px 16px;
+//   text-decoration:none;
+  
+//   }
+//   li a:hover{
+//     background-color:#111;
+//   }
+
+// 
+  nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 0px;
+    display: inline-block;
+    border-radius: 1px;
+  }
+  nav a:visited, a:link {
+    color: rgb(236, 230, 230);
+  }
+  nav a:hover {
+      
+    color: #cdd1d1;
+    //点击时字块的背景
+    background-color: #000000;
+  }
+  //未点击前的显示
+  nav a.active {
+    color: #cfd8dc;
+  }
+  
